@@ -1,0 +1,94 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* regole di debug */
+[class*="col-"] {
+  min-height: 100px;
+  /* background-color: lightgreen;
+  border: solid 1px  #000;
+  padding: 2px; */
+}
+
+/* header */
+
+header {
+  padding-top: 100px;
+}
+
+.center {
+  padding: 0 10%;
+}
+
+#nav-extended {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 900;
+  background-color: white;
+}
+
+#nav-mobile {
+  display: none;
+}
+
+#logo img {
+  width: 120px;
+  height: auto;
+  padding-top: 50px;
+}
+
+.main-menu {
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+li, a {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  padding-left: 2px;
+  color: black;
+}
+
+#jumbo {
+  min-height: 600px;
+  width: 100%;
+  background-image:url("https://www.fleetmagazine.com/wp-content/uploads/2020/05/helbiz-unlimeted-monopattini-1024x586.jpg");
+  background-size: cover;
+  background-position: left;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(102, 102, 102, 0.4);
+  min-height: 600px;
+}
+#jumbotron-content h1,h4 {
+  text-align: center;
+  color: white;
+}
+
+#jumbotron-content h1 {
+  font-size: 50px;
+  padding-top: 30%;
+  padding-bottom: 10px;
+}
+
+/* regole sezione centrale */
+
+/* regole footer */
