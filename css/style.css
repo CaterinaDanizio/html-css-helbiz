@@ -105,4 +105,13 @@ div.box-product {
   height: 50%;
   width: auto;
 }
+
+div.banner-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.banner-content img {
+  width: 100%;
+}
 /* regole footer */
