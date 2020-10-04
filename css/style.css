@@ -11,7 +11,9 @@ img {
   height: auto;
 }
 
-
+body {
+  font-family: 'Roboto Mono', monospace, arial;
+}
 
 /* regole di debug */
 [class*="col-"] {
@@ -45,14 +47,14 @@ header {
 }
 
 #logo img {
-  width: 120px;
+  width: 30%;
   height: auto;
   padding-top: 50px;
 }
 
 .main-menu {
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
   padding-top: 50px;
 }
@@ -64,6 +66,8 @@ li, a {
   padding-left: 2px;
   color: black;
 }
+
+/* jumbotron */
 
 #jumbo {
   min-height: 50%;
@@ -89,10 +93,38 @@ li, a {
   padding-bottom: 10px;
 }
 
+a > img {
+  width: 20%;
+  height: auto;
+}
+
+.button-app {
+  text-align: center;
+}
+
+#google-play {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1280px-Google_Play_Store_badge_EN.svg.png");
+  background-size: cover;
+  width: 20%;
+  height: 44px;
+  margin-top: 10px;
+}
+
+#apple {
+  background-image: url("https://www.flowerburger.it/wp-content/uploads/2018/12/1280px-Download_on_the_App_Store_Badge.svg.png");
+  background-size: cover;
+  width: 20%;
+  height: 44px;
+  margin-top: 10px;
+}
+
 /* regole sezione centrale */
+
+  /* sezione prodotti */
 
 div.box-product {
   border: 1px solid #e6e6e6;
+  background-color: rgba(242, 242, 242, 0.5);
   margin: 2% 5%;
   text-align: center;
 }
@@ -106,12 +138,101 @@ div.box-product {
   width: auto;
 }
 
-div.banner-content {
+
+.block-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Sezione banner Smart Mobility */
+
+.container-banner {
   width: 80%;
   margin: 0 auto;
 }
 
-.banner-content img {
-  width: 100%;
+#smart-bck {
+  min-height: 400px;
+  background-image:url("../img/park.jpg");
+  background-size: cover;
+  background-position: center;
 }
+
+.smart-text {
+  margin-left: 55%;
+  padding-top: 10%;
+  margin-right: 20%;
+  color: white;
+}
+
+.smart-text a {
+  color: white;
+}
+
+.smart-text a, p {
+  padding-top: 5px;
+}
+
+#get-app {
+  background-image: url("../img/iphone.png");
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-color: #00334d;
+  background-position: bottom;
+
+}
+
+.double-banner {
+  height: 400px;
+  width: 100%;
+  margin-top: 5%;
+}
+
+#city {
+  background-image:url("../img/city.jpg");
+  background-size: cover;
+}
+
+
+.smart-text.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* pachwork */
+#pachwork {
+  width: 100%;
+  min-height: 300px;
+  background-image: url("../img/pachwork.jpg");
+  background-size: cover;
+  margin: 2% 0;
+  position: relative;
+}
+
+#box-social {
+  min-height: 100px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+#box-social i {
+  padding-top: 15px;
+  font-size: 20px;
+}
+
 /* regole footer */
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.product {
+  padding-top: 50px;
+}
